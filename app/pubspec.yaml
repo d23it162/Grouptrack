@@ -104,7 +104,7 @@ dev_dependencies:
   freezed: ^2.4.7
   json_serializable: ^6.7.1
   #navigation
-  go_router_builder: ^2.7.0
+  go_router_builder: ^2.8.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
