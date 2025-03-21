@@ -1,2 +1,9 @@
-pubspec.yaml
-pubspec.lock
+# Ignore unnecessary files
+build/
+dist/
+*.log
+*.tmp
+
+# Uncomment if these were mistakenly ignored
+# !pubspec.yaml
+# !pubspec.lock
