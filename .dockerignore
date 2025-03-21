@@ -1,0 +1,8 @@
+.git
+.idea
+build
+android
+ios
+lib
+*.lock
+firebase.json

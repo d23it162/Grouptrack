@@ -1,0 +1,334 @@
+{
+  "app_title": "Grouptrack",
+  "app_tag_line": "Stay Close, Anywhere!",
+  "alert_confirm_default_title": "Are you sure",
+
+  "@_COMMON": {
+  },
+  "common_get_started": "Get started",
+  "common_all": "All",
+  "common_next": "Next",
+  "common_yes": "Yes",
+  "common_save": "Save",
+  "common_cancel": "Cancel",
+  "common_delete": "Delete",
+  "common_okay": "Okay",
+  "common_today": "Today",
+  "common_yesterday": "Yesterday",
+  "common_now": "Now",
+  "common_just_now": "Just now",
+  "common_min_ago": "min ago",
+  "common_hour_ago": "hour ago",
+  "common_hours_ago": "hours ago",
+  "common_add": "Add",
+  "common_verify": "Verify",
+  "common_go_to_setting": "Go to settings",
+  "commonMembers": "{memberCount} {memberCount, plural, =1{Member} other{Members}}",
+  "common_retry": "Retry",
+  "common_remove": "Remove",
+  "@commonMembers": {
+    "placeholders": {
+      "memberCount": {}
+    }
+  },
+  "common_skip": "Skip",
+
+  "@_ERROR_SCREEN": {
+  },
+  "on_internet_error_title": "No Internet!",
+  "on_internet_error_sub_title": "No Internet Connection. Please check your network settings and try again.",
+
+  "@_ERROR": {
+  },
+  "errorNoConnection": "No internet connection detected.",
+  "errorGeneric": "Something went wrong. Please try again.",
+
+   "@_INTRO": {
+   },
+  "intro_1_title": "Live location",
+  "intro_2_title": "Receive alerts",
+  "intro_3_title": "Location history",
+  "intro_1_subTitle": "Share your location seamlessly, connecting with just a click.",
+  "intro_2_subTitle": "Stay in the know with instant alerts – whether loved ones enter or leave.",
+  "intro_3_subTitle": "Simplify your connections and insights – explore drive reports, location history effortlessly.",
+  "@_AUTH": {
+  },
+  "sign_in_options_continue_with_google_btn_title": "Continue with Google",
+  "sign_in_options_continue_with_apple_btn_title": "Continue with Apple",
+  "onboard_pick_name_title": "What's your name?",
+  "onboard_pick_name_hint_first_name": "First Name",
+  "onboard_pick_name_hint_last_name": "Last Name",
+
+  "@_HOME": {
+  },
+  "home_create_space_title": "Create new",
+  "home_join_space_title": "Join group",
+  "home_space_owner_text": "By {spaceName}",
+  "@home_space_owner_text": {
+    "placeholders": {
+      "spaceName": {
+        "type": "String"
+      }
+    }
+  },
+  "home_select_space_text": "Select a group",
+  "home_session_expired_title": "You've been logged out",
+  "home_session_expired_message": "You need to sign in again to continue using the application.",
+  "home_map_style_bottom_sheet_title_text": "Choose Map Style",
+  "home_map_style_type_app_theme_text": "App Theme",
+  "home_map_selected_type_normal_text": "Normal",
+  "home_map_selected_type_terrain_text": "Terrain",
+  "home_map_selected_type_satellite_text": "Satellite",
+
+  "map_selected_user_item_no_network_state_text": "No network or phone off",
+  "map_selected_user_item_location_off_state_text": "Location off",
+  "map_selected_user_item_online_state_text": "Online",
+
+  "create_space_give_your_space_name_title": "Give your group name",
+  "create_space_tip_text": "Tips: You create dedicated groups for work, family, friends, and more.",
+  "create_space_name_title": "Group name",
+  "create_space_suggestion_family_text": "Family",
+  "create_space_suggestion_friends_text": "Friends",
+  "create_space_suggestion_special_someone_text": "Special someone",
+  "create_space_suggestion_siblings_text": "Siblings",
+  "create_space_suggestion_office_squad_text": "Office squad",
+  "create_space_suggestion_colleagues_text": "Colleagues",
+  "create_space_suggestion_team_unity_text": "Team Unity",
+  "create_space_suggestion_my_squad_text": "My Squad",
+  "create_space_suggestion_heart_mates_text": "Heart mates",
+  "create_space_suggestion_blood_bond_text": "Blood bond",
+  "create_space_some_suggestion_title": "Some suggestion...",
+
+  "join_space_title": "Join group",
+  "join_space_invite_code_title": "Enter the invite code",
+  "join_space_get_code_from_space_text": "Get the code from the group creator to join.",
+  "join_space_already_joined_error_text": "You are already member of this group",
+  "join_space_invalid_code_error_text": "It appears the code is no longer valid or has expired. please review and enter valid code.",
+  "join_space_prompt_title": "Congratulations!",
+  "join_space_prompt_subtitle": "You're now a member of the {spaceName} group for sharing your real-time location.",
+  "@join_space_prompt_subtitle": {
+    "placeholders": {
+      "spaceName": {
+        "type": "String"
+      }
+    }
+  },
+  "join_space_invitation_title": "Have a Group Invitation?",
+  "join_space_get_code_from_space_creator_title": "Get the code from the group creator and input it here to join.\n\nIf you don't have an invitation code, create a new group.",
+  "join_space_create_new_space_title": "Create a new group",
+
+  "invite_code_title": "Invite code",
+  "invite_code_invite_member_title": "Invite members to the {spaceName}",
+  "@invite_code_invite_member_title": {
+    "placeholders": {
+      "spaceName": {
+        "type": "String"
+      }
+    }
+  },
+  "invite_code_invite_member_subtitle": "Share this invite code with your trusted ones in your own style. Connecting is as flexible as you are.",
+  "invite_code_active_code_text": "This code will be active for 2 days.",
+  "invite_code_share_code_title": "Share code",
+  "invite_code_share_code_text": "Join me on Group Track! Use this invite code to join group: {invitationCode}",
+  "@invite_code_share_code_text": {
+    "placeholders": {
+      "invitationCode": {
+        "type": "String"
+      }
+    }
+  },
+
+  "settings_title": "Settings",
+  "settings_profile_title": "Profile",
+  "settings_your_space_title": "Your groups",
+  "settings_other_title": "Other",
+  "settings_other_option_privacy_policy_text": "Privacy policy",
+  "settings_other_option_contact_support_text": "Contact support",
+  "settings_other_option_about_us_text": "About us",
+  "settings_other_option_sign_out_text": "Sign out",
+  "settings_sign_out_alert_title": "See you soon!",
+  "settings_sign_out_alert_description": "Are you sure you want to sign out?",
+  "settings_subscriptions_title": "Subscriptions",
+
+  "message_add_member_to_send_message_title": "Add members to send messages",
+  "message_add_member_to_send_message_subtitle": "At least one member needs to join your group to be able to chat.",
+  "message_add_new_member_title": "Add a new member",
+  "message_tap_to_send_new_message_text": "Tap on ‘+’ to send new message to anyone in your group",
+  "message_delete_thread_title": "Delete thread?",
+  "message_delete_thread_subtitle": "Are you sure you want to delete this thread? This action cannot be undone",
+  "message_member_count_text": " +{memberCount}",
+  "@message_member_count_text": {
+    "placeholders": {
+      "memberCount": {
+        "type": "int"
+      }
+    }
+  },
+
+  "chat_start_new_chat_title": "Start new chat",
+  "chat_type_message_hint_text": "Type message",
+  "chat_seen_message_text": "seen",
+  "chat_seen_by_message_text": " seen by {members}",
+  "@chat_seen_by_message_text": {
+    "placeholders": {
+      "members": {
+        "type": "String"
+      }
+    }
+  },
+
+  "edit_profile_title": "Edit profile",
+  "edit_profile_first_name_title": "First name",
+  "edit_profile_last_name_title": "Last name",
+  "edit_profile_email_title": "Email",
+  "edit_profile_alert_title": "Sorry to see you go!",
+  "edit_profile_alert_description": "Deleting your account is permanent and you will lose all your data. Are you sure you want to delete your account?",
+  "edit_profile_gallery_option_text": "Gallery",
+  "edit_profile_camera_option_text": "Camera",
+  "edit_profile_remove_photo_option_text": "Remove photo",
+  "edit_profile_cropper_text": "Cropper",
+  "edit_profile_delete_account_title": "Delete account",
+  "edit_profile_change_admin_text": "Change",
+  "edit_profile_change_admin_title": "Change admin",
+  "edit_profile_change_admin_subtitle": "To delete your account, you must first assign another member as the admin of the group where you are currently the admin. You cannot delete the group until the admin role is reassigned.",
+
+  "edit_space_name_title": "Group name",
+  "edit_space_member_location_sharing_title": "Member location sharing",
+  "edit_space_your_location_sharing_title": "Your location sharing",
+  "edit_space_delete_space_title": "Delete group",
+  "edit_space_leave_space_title": "Leave group",
+  "edit_space_leave_space_alert_message": "Are you sure you want to leave this group? You will no longer be able to view or share location with member of this group",
+  "edit_space_delete_space_alert_message": "Confirming will permanently delete this group and associated data. This action cannot be undone.",
+  "edit_space_no_member_in_space_text": "No members in {spaceName}",
+  "@edit_space_no_member_in_space_text": {
+    "placeholders": {
+      "spaceName": {
+        "type": "String"
+      }
+    }
+  },
+  "edit_space_leave_space_alert_confirm_button_text": "Leave",
+  "edit_space_remove_user_title": "Remove member",
+  "edit_space_remove_user_subtitle": "This action cannot be undone, are you sure you want to remove this member from group",
+  "edit_space_admin_text": "(Admin)",
+  "edit_space_change_admin_text": "Change",
+  "edit_space_change_admin_title": "Change Admin",
+  "edit_space_change_admin_subtitle": "To leave the group, you must assign another member as admin. This action is irreversible unless the new admin changes it.",
+  "edit_space_more_option_change_admin_text": "Change admin",
+  "edit_space_more_option_regenerate_invitation_code_text": "Regenerate invitation code",
+  "edit_space_invitation_code_title": "Invitation code",
+
+  "contact_support_title": "Contact support",
+  "contact_support_title_field": "Title",
+  "contact_support_description_title": "Description",
+  "contact_support_attachment": "Attachment (if any)",
+  "contact_support_submit_title": "Submit",
+  "contact_support_feedback_alert_message": "Thanks! Your feedback has been recorded.",
+
+  "connection_share_title": "Connect, share, explore join your trusted group for safe location sharing.",
+  "connection_share_subtitle": "Simplify your connections and insights explore drive reports, location history effortlessly.",
+  "connection_continue_title": "Continue",
+
+  "@_Permission": {
+  },
+  "enable_permission_top_bar_text": "Enable permission",
+  "enable_permission_screen_title": "For an effective user experience on GroupTrack, it’s necessary to enable these permissions.",
+  "enable_location_access_title": "Location Access",
+  "enable_location_access_sub_title": "For seamless sharing of your live location with a trusted contact requires permission for location access.",
+  "enable_background_location_access_message_text": "Please grant either Approximate location access permission or Fine location access permission",
+  "enable_background_location_access_title": "Background location access",
+  "enable_background_location_access_sub_title": "Granting background location permission allows you to effortlessly stay connected with trusted ones, ensuring seamless coordination and peace of mind in knowing their whereabouts.\n\nLocation permission > Select allow all the time",
+  "enable_notification_access_title": "Notification Access",
+  "enable_notification_access_sun_title": "Stay connected and receive timely updates by enabling notification permission for check-ins, alerts, and messages from your trusted one.",
+  "enable_permission_footer": "We prioritize the security of your information and want to assure you that we do not share your data with any third-party entities.",
+  "enable_location_prompt_title": "Location access required",
+  "enable_location_prompt_sub_title_1": "GroupTrack’s location-sharing feature works correctly when it can access your location all the time. This ensures it gives you accurate, real-time updates.",
+  "enable_location_prompt_sub_title_2": "Go to settings > Allow all the time",
+  "enable_location_service_title": "Turn on location/GPS",
+  "enable_location_service_message": "Your location/GPS setting must be turned on for GroupTrack to work. Please turn on location/GPS in the settings.",
+
+  "permission_footer_title": "Stay closed to your loved one.",
+  "permission_footer_missing_location_permission_title": "Location sharing is currently not possible.",
+  "permission_footer_subtitle": "Allow GroupTrack to access your location data.",
+  "permission_footer_location_off_subtitle": "Device location/GPS is off. Please turn it on!",
+  "permission_footer_missing_location_permission_subtitle": "Some permissions are missing - grant access.",
+
+  "battery_optimization_dialog_title":"Turn off Battery Optimization for Location Sharing",
+  "battery_optimization_dialog_message": "For location sharing feature to work properly for your Groups, turn off Battery Optimization in your phone settings for the GroupTrack app. This won't affect your other apps.",
+  "battery_optimization_dialog_btn_change_now":"Change now",
+
+  "@_PLACES": {
+  },
+  "places_list_title": "Places",
+  "places_list_add_place_btn_text": "Add place",
+  "places_list_suggestion_home_text": "Home",
+  "places_list_suggestion_work_text": "Work",
+  "places_list_suggestion_school_text": "School",
+  "places_list_suggestion_gym_text": "Gym",
+  "places_list_suggestion_library_text": "Library",
+  "places_list_suggestion_local_park_text": "Local park",
+  "places_list_delete_dialog_content_text": "Are you sure you want to delete this place? This action cannot be undone.",
+  "place_list_add_member_to_add_places_title": "Add members to set up geofence",
+  "place_list_add_member_to_add_places_subtitle": "At least one member needs to join your group to create geofence locations.",
+
+  "add_new_place_title": "Add a new place",
+  "add_new_place_suggestion_text": "Some suggestions...",
+  "add_new_place_search_hint_text": "Search address and location name",
+  "add_new_place_location_on_map_text": "Locate on map",
+
+  "locate_on_map_title": "Locate on Map",
+  "locate_on_map_prompt_added_title_text": "{placeName} Added",
+  "locate_on_map_prompt_sub_title_text": "You will be notified when members of your group arrive/leave this place",
+  "locate_on_map_prompt_got_it_btn_text": "Got it",
+
+  "choose_place_screen_title": "Choose place name",
+  "choose_place_search_hint_text": "Enter place name",
+  "choose_place_suggestion_text": "Some suggestions...",
+  "choose_place_add_place_btn_text": "Add place",
+  "choose_place_prompt_added_title_text": "{placeName} Added",
+  "choose_place_prompt_sub_title_text": "You will be notified when members of your group arrive/leave this place",
+  "choose_place_prompt_got_it_btn_text": "Got it",
+
+  "@_EditPlaces": {
+  },
+  "edit_place_title_text": "Edit place",
+  "edit_place_getting_address_text": "Getting Address…",
+  "edit_place_detail_title_text": "Place details",
+  "edit_place_get_notified_title_text": "Get notified when...",
+  "edit_place_arrives_text": "Arrives",
+  "edit_place_leaves_text": "Leaves",
+  "edit_place_delete_place_btn_text": "Delete place",
+  "edit_place_only_admin_edit_text": "Only admin can edit or delete this place.",
+  "edit_place_delete_dialog_sub_title_text": "Are you sure you want to delete this place? This action cannot be undone.",
+
+  "@_Timeline": {
+  },
+  "journey_timeline_title": "Timeline",
+  "journey_timeline_title_your_timeline": "Your Timeline",
+  "journey_timeline_title_other_user": "{userName}'s Timeline",
+  "journey_timeline_add_place_btn_text": "Add Place",
+  "journey_timeline_unknown_address_text": "Unknown address.",
+  "journey_timeline_getting_address_text": "Getting address...",
+  "journey_timeline_empty_screen_text": "No location history found!",
+  "journey_timeline_Since_text": "Since {date}",
+  "journey_timeline_today_text": "Today {date}",
+  "journey_timeline_date_picker_select_text": "Select",
+  "journey_timeline_steady_duration_text": "  |  Steady for {duration}",
+  "@journey_timeline_steady_duration_text": {
+    "placeholders": {
+      "duration": {
+        "type": "String?"
+      }
+    }
+  },
+
+  "journey_detail_getting_address_text": "Getting the address...",
+
+  "@_subscription":{
+  },
+  "subscription_title": "Subscription",
+  "subscription_sub_title": "Choose the plan that’s right for you downgrade or upgrade anytime.",
+  "subscription_auto_renewable_text": "Auto renewable",
+  "subscription_cancel_anytime_text": "Cancel anytime",
+  "subscription_go_to_payment_text": "Go to payment"
+}
