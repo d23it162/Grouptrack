@@ -12,8 +12,7 @@ final messageServiceProvider = Provider((ref) => MessageService(
   ref.read(currentSpaceId.notifier),
   ref.read(apiUserServiceProvider),
 ));
-
-class MessageService {
+lass MessageService {
   final ApiUser? currentUser;
   final ApiMessageService messageService;
   final StateController<String?> _currentSpaceIdController;

@@ -1,27 +1,34 @@
-# Use official Flutter image as base
-FROM cirrusci/flutter:latest
+# Use an official Flutter image from Docker Hub
+FROM cirrusci/flutter:latest AS build
 
-# Set working directory inside container
+# Set the working directory
 WORKDIR /app
 
-# Copy pubspec and lock files first (for dependency caching)
+# Copy necessary files
 COPY pubspec.yaml pubspec.lock ./
 
-# Get dependencies
-RUN flutter pub get
+# Enable non-root user to avoid permission issues
+RUN adduser -D -h /app LLT && chown -R LLT /app
+USER LLT
 
-# Copy the entire project
+# Copy the rest of the app source code
 COPY . .
 
-# Ensure Flutter is configured
-RUN flutter config --enable-web
+# Run Flutter pub get
+RUN flutter pub get
 
-# Build the Flutter project for the web
+# Build the Flutter web application
 RUN flutter build web
 
-# Use Nginx to serve the Flutter web app
-FROM nginx:latest
-COPY --from=0 /app/build/web /usr/share/nginx/html
+# Use Nginx to serve the built Flutter web app
+FROM nginx:latest AS runtime
+WORKDIR /usr/share/nginx/html
+
+# Remove default Nginx static files
+RUN rm -rf ./*
+
+# Copy built files from the previous stage
+COPY --from=build /app/build/web .
 
 # Expose port 80
 EXPOSE 80
