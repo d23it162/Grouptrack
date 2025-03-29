@@ -55,7 +55,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${AIzaSyDP8p4SXUcY8Doz9y9YS3zBT2weUaSKQMo}" />
+            android:value="${your-api-key-of-googlemapAPI}" />
 
         <service
             android:name="id.flutter.flutter_background_service.BackgroundService"
